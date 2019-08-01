@@ -1,0 +1,97 @@
+/*
+* @Author: admin
+* @Date:   2016-08-23 09:23:09
+* @Last Modified by:   admin
+* @Last Modified time: 2016-09-05 16:11:25
+*/
+html{font-size:62.5%;font-family:'helvetica neue',tahoma,arial,'hiragino sans gb','Simsun',sans-serif} 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,hr{margin:0;padding:0}
+body{line-height:1.333;font-size:12px}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-family:arial,'hiragino sans gb','microsoft yahei','Simsun',sans-serif}
+li{list-style:none}
+a:link,a:visited{text-decoration:none}
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:"微软雅黑";
+	font-size:12px;color:#000000;
+	word-wrap:break-word;
+	behavior:url("csshover.htc");
+}
+
+button,input,select,textarea{
+	font:12px/1.5  Arial, "宋体", Helvetica,  Verdana, sans-serif;
+	word-wrap:break-word;
+	color:#565756;
+}
+
+ul,li{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+}
+
+img{
+	border:none;
+	border:0;
+	vertical-align:middle;
+	display: block;
+}
+
+a{
+	text-decoration:none;
+	outline:none;
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+input,select,textarea{
+	vertical-align:middle;
+	*font-size:100%;
+}
+
+input{
+	margin:0;
+	outline:none;
+	padding:0;
+}
+
+input::-ms-clear{
+	display:none;
+}
+
+.clearfix:after{
+     content:".";       
+     display:block;       
+     height:0;       
+     clear:both;       
+     visibility:hidden;       
+
+}
+
+.clearfix{
+	*zoom:1
+}
+
+.clearfloat{
+	zoom:1;
+}
+
+.clearfloat:after{
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0;
+}
+
